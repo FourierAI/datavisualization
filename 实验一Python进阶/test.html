@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Markdown 引用语法 | Markdown 官方教程</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    <script>
+      var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?bb79d632b24b3cbee46f3d3d24db2b7d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+        </script>
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/assets/css/0.styles.7d2b7d00.css" as="style"><link rel="preload" href="/assets/js/app.dfa4bb84.js" as="script"><link rel="preload" href="/assets/js/2.c305ec8e.js" as="script"><link rel="preload" href="/assets/js/14.ab5f3e4b.js" as="script"><link rel="prefetch" href="/assets/js/10.86e59ef4.js"><link rel="prefetch" href="/assets/js/11.766fd151.js"><link rel="prefetch" href="/assets/js/12.8d95740e.js"><link rel="prefetch" href="/assets/js/13.a9b064b4.js"><link rel="prefetch" href="/assets/js/15.531bf6c2.js"><link rel="prefetch" href="/assets/js/16.9ec318ec.js"><link rel="prefetch" href="/assets/js/17.62b5c4ed.js"><link rel="prefetch" href="/assets/js/18.eb15452f.js"><link rel="prefetch" href="/assets/js/19.f3e69c90.js"><link rel="prefetch" href="/assets/js/20.d58f5d47.js"><link rel="prefetch" href="/assets/js/21.06ce3857.js"><link rel="prefetch" href="/assets/js/22.b99d283e.js"><link rel="prefetch" href="/assets/js/23.6d524396.js"><link rel="prefetch" href="/assets/js/24.33207003.js"><link rel="prefetch" href="/assets/js/25.8edc82c6.js"><link rel="prefetch" href="/assets/js/26.845f685a.js"><link rel="prefetch" href="/assets/js/27.720332b3.js"><link rel="prefetch" href="/assets/js/28.5972eeef.js"><link rel="prefetch" href="/assets/js/29.6222a353.js"><link rel="prefetch" href="/assets/js/3.647a2490.js"><link rel="prefetch" href="/assets/js/30.351d70fe.js"><link rel="prefetch" href="/assets/js/31.32a0f853.js"><link rel="prefetch" href="/assets/js/32.243fd49b.js"><link rel="prefetch" href="/assets/js/33.0dcbb893.js"><link rel="prefetch" href="/assets/js/34.83b7e878.js"><link rel="prefetch" href="/assets/js/35.377cbced.js"><link rel="prefetch" href="/assets/js/36.bdc5d8d4.js"><link rel="prefetch" href="/assets/js/37.f0b0ded1.js"><link rel="prefetch" href="/assets/js/4.b08b42ab.js"><link rel="prefetch" href="/assets/js/5.7ec070d3.js"><link rel="prefetch" href="/assets/js/6.0bb1c97b.js"><link rel="prefetch" href="/assets/js/7.1d1b3767.js"><link rel="prefetch" href="/assets/js/8.028f7586.js"><link rel="prefetch" href="/assets/js/9.b5ca5e0f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7d2b7d00.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Markdown 官方教程</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/intro.html" class="nav-link">
+  入门
+</a></div><div class="nav-item"><a href="/cheat-sheet.html" class="nav-link">
+  速查表
+</a></div><div class="nav-item"><a href="/basic-syntax/" class="nav-link router-link-active">
+  基本语法
+</a></div><div class="nav-item"><a href="/extended-syntax/" class="nav-link">
+  扩展语法
+</a></div><div class="nav-item"><a href="/tools.html" class="nav-link">
+  工具
+</a></div><div class="nav-item"><a href="https://markdown.com.cn/editor/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线编辑器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://commonmark.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  标准
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/intro.html" class="nav-link">
+  入门
+</a></div><div class="nav-item"><a href="/cheat-sheet.html" class="nav-link">
+  速查表
+</a></div><div class="nav-item"><a href="/basic-syntax/" class="nav-link router-link-active">
+  基本语法
+</a></div><div class="nav-item"><a href="/extended-syntax/" class="nav-link">
+  扩展语法
+</a></div><div class="nav-item"><a href="/tools.html" class="nav-link">
+  工具
+</a></div><div class="nav-item"><a href="https://markdown.com.cn/editor/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  在线编辑器
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://commonmark.org/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  标准
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>基本语法</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/basic-syntax/" aria-current="page" class="sidebar-link">Markdown 基本语法</a></li><li><a href="/basic-syntax/headings.html" class="sidebar-link">Markdown 标题语法</a></li><li><a href="/basic-syntax/paragraphs.html" class="sidebar-link">Markdown 段落语法</a></li><li><a href="/basic-syntax/line-breaks.html" class="sidebar-link">Markdown 换行语法</a></li><li><a href="/basic-syntax/emphasis.html" class="sidebar-link">Markdown 强调语法</a></li><li><a href="/basic-syntax/blockquotes.html" aria-current="page" class="active sidebar-link">Markdown 引用语法</a></li><li><a href="/basic-syntax/lists.html" class="sidebar-link">Markdown 列表语法</a></li><li><a href="/basic-syntax/code.html" class="sidebar-link">Markdown 代码语法</a></li><li><a href="/basic-syntax/horizontal-rules.html" class="sidebar-link">Markdown 分隔线语法</a></li><li><a href="/basic-syntax/links.html" class="sidebar-link">Markdown 链接语法</a></li><li><a href="/basic-syntax/images.html" class="sidebar-link">Markdown 图片语法</a></li><li><a href="/basic-syntax/escaping-characters.html" class="sidebar-link">Markdown 转义字符语法</a></li><li><a href="/basic-syntax/htmls.html" class="sidebar-link">Markdown 内嵌 HTML 标签</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="markdown-引用语法"><a href="#markdown-引用语法" class="header-anchor">#</a> Markdown 引用语法</h1> <p>要创建块引用，请在段落前添加一个 <code>&gt;</code> 符号。</p> <div class="language- extra-class"><pre class="language-text"><code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+</code></pre></div><p>渲染效果如下所示：</p> <blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p></blockquote> <h3 id="多个段落的块引用"><a href="#多个段落的块引用" class="header-anchor">#</a> 多个段落的块引用</h3> <p>块引用可以包含多个段落。为段落之间的空白行添加一个 <code>&gt;</code> 符号。</p> <div class="language- extra-class"><pre class="language-text"><code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+</code></pre></div><p>渲染效果如下：</p> <blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p> <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote> <h3 id="嵌套块引用"><a href="#嵌套块引用" class="header-anchor">#</a> 嵌套块引用</h3> <p>块引用可以嵌套。在要嵌套的段落前添加一个 <code>&gt;&gt;</code> 符号。</p> <div class="language- extra-class"><pre class="language-text"><code>&gt; Dorothy followed her through many of the beautiful rooms in her castle.
+&gt;
+&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+</code></pre></div><p>渲染效果如下：</p> <blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p> <blockquote><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote></blockquote> <h3 id="带有其它元素的块引用"><a href="#带有其它元素的块引用" class="header-anchor">#</a> 带有其它元素的块引用</h3> <p>块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。</p> <div class="language- extra-class"><pre class="language-text"><code>&gt; #### The quarterly results look great!
+&gt;
+&gt; - Revenue was off the chart.
+&gt; - Profits were higher than ever.
+&gt;
+&gt;  *Everything* is going according to **plan**.
+</code></pre></div><p>渲染效果如下：</p> <blockquote><h4 class="no-anchor">The quarterly results look great!</h4> <ul><li>Revenue was off the chart.</li> <li>Profits were higher than ever.</li></ul> <p><em>Everything</em> is going according to <strong>plan</strong>.</p></blockquote></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/basic-syntax/emphasis.html" class="prev">
+        Markdown 强调语法
+      </a></span> <span class="next"><a href="/basic-syntax/lists.html">
+        Markdown 列表语法
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.dfa4bb84.js" defer></script><script src="/assets/js/2.c305ec8e.js" defer></script><script src="/assets/js/14.ab5f3e4b.js" defer></script>
+  </body>
+</html>
